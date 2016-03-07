@@ -6,23 +6,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About SuperTurbostake</source>
-        <translation>Over SuperTurbostake</translation>
+        <source>About Pulse</source>
+        <translation>Over Pulse</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="75"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;SuperTurbostake&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;SuperTurbostake&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Pulse&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="113"/>
-        <source>Copyright © 2014 SuperTurbostake Developers</source>
-        <translation>Copyright © 2014 SuperTurbostake Developers</translation>
+        <source>Copyright © 2014 Pulse Developers</source>
+        <translation>Copyright © 2014 Pulse Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="120"/>
-        <source>Copyright © 2011-2014 SuperTurbostake Developers</source>
-        <translation>Copyright © 2011-2014 SuperTurbostake Developers</translation>
+        <source>Copyright © 2011-2014 Pulse Developers</source>
+        <translation>Copyright © 2011-2014 Pulse Developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="133"/>
@@ -48,8 +48,8 @@ Dit product bevat code ontwikkeld door het OpenSSL project voor het gebruik in h
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your SuperTurbostake addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn je SuperTurbostake adressen om bedragen te ontvangen. Je kan een verschillend adres opgeven voor iedere geaddresseerde zodat je kan achterhalen wie jouw betaalt.</translation>
+        <source>These are your Pulse addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn je Pulse adressen om bedragen te ontvangen. Je kan een verschillend adres opgeven voor iedere geaddresseerde zodat je kan achterhalen wie jouw betaalt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -266,8 +266,8 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
-        <source>SuperTurbostake will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SuperTurbostakes from being stolen by malware infecting your computer.</source>
-        <translation>SuperTurbostake sluit nu af om het versleutelings proces te beeindigen. Onthoud dat het versleutelen van de portemonnee je SuperTurbostakes niet volledig kan beschermen tegen schadelijke software op een geinfecteerde computer</translation>
+        <source>Pulse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Pulses from being stolen by malware infecting your computer.</source>
+        <translation>Pulse sluit nu af om het versleutelings proces te beeindigen. Onthoud dat het versleutelen van de portemonnee je Pulses niet volledig kan beschermen tegen schadelijke software op een geinfecteerde computer</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
@@ -382,8 +382,8 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="254"/>
-        <source>Show information about SuperTurbostake</source>
-        <translation>Toon informatie over SuperTurbostake</translation>
+        <source>Show information about Pulse</source>
+        <translation>Toon informatie over Pulse</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="256"/>
@@ -497,38 +497,38 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="76"/>
-        <source>SuperTurbostake Wallet</source>
-        <translation>SuperTurbostake portemonnee</translation>
+        <source>Pulse Wallet</source>
+        <translation>Pulse portemonnee</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="222"/>
-        <source>Send coins to a SuperTurbostake address</source>
-        <translation>Zend munten naar een SuperTurbostake adres</translation>
+        <source>Send coins to a Pulse address</source>
+        <translation>Zend munten naar een Pulse adres</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="253"/>
-        <source>&amp;About SuperTurbostake</source>
-        <translation>Over SuperTurbostake</translation>
+        <source>&amp;About Pulse</source>
+        <translation>Over Pulse</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
-        <source>Modify configuration options for SuperTurbostake</source>
-        <translation>Wijzig configuratie opties voor SuperTurbostake</translation>
+        <source>Modify configuration options for Pulse</source>
+        <translation>Wijzig configuratie opties voor Pulse</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
-        <source>Show/Hide &amp;SuperTurbostake</source>
-        <translation>Toon/Verberg &amp;SuperTurbostake</translation>
+        <source>Show/Hide &amp;Pulse</source>
+        <translation>Toon/Verberg &amp;Pulse</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="263"/>
-        <source>Show or hide the SuperTurbostake window</source>
-        <translation>Toon of verberg het SuperTurbostake scherm</translation>
+        <source>Show or hide the Pulse window</source>
+        <translation>Toon of verberg het Pulse scherm</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="415"/>
-        <source>SuperTurbostake client</source>
-        <translation>SuperTurbostake client</translation>
+        <source>Pulse client</source>
+        <translation>Pulse client</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="443"/>
@@ -537,7 +537,7 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="507"/>
-        <source>%n active connection(s) to SuperTurbostake network</source>
+        <source>%n active connection(s) to Pulse network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -678,8 +678,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. SuperTurbostake can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout heeft plaatsgevonden. SuperTurbostake kan niet langer veilig doorgaan en zal afsluiten.</translation>
+        <source>A fatal error occured. Pulse can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout heeft plaatsgevonden. Pulse kan niet langer veilig doorgaan en zal afsluiten.</translation>
     </message>
 </context>
 <context>
@@ -976,8 +976,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="287"/>
-        <source>Whether to show SuperTurbostake addresses in the transaction list</source>
-        <translation>Toon SuperTurbostakeadressen in transactielijst</translation>
+        <source>Whether to show Pulse addresses in the transaction list</source>
+        <translation>Toon Pulseadressen in transactielijst</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="290"/>
@@ -1044,8 +1044,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid SuperTurbostake address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig SuperTurbostake adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Pulse address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Pulse adres.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -1087,8 +1087,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="187"/>
-        <source>Automatically open the SuperTurbostake client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open automatisch de SuperTurbostake client poort op de router. Dit werkt alleen indien je router PnP ondersteund en het geactiveerd is.</translation>
+        <source>Automatically open the Pulse client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open automatisch de Pulse client poort op de router. Dit werkt alleen indien je router PnP ondersteund en het geactiveerd is.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -1098,7 +1098,7 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <message>
         <location filename="../optionsdialog.cpp" line="191"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Verbind met het SuperTurbostake-netwerk door een SOCKS4 proxy (bijv. wanneer Tor gebruikt wordt)</translation>
+        <translation>Verbind met het Pulse-netwerk door een SOCKS4 proxy (bijv. wanneer Tor gebruikt wordt)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="196"/>
@@ -1142,13 +1142,13 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>&amp;Start SuperTurbostake on window system startup</source>
-        <translation>Start SuperTurbostake als windows wordt geladen</translation>
+        <source>&amp;Start Pulse on window system startup</source>
+        <translation>Start Pulse als windows wordt geladen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="173"/>
-        <source>Automatically start SuperTurbostake after the computer is turned on</source>
-        <translation>Start SuperTurbostake automatisch nadat de computer is ingeschakeld</translation>
+        <source>Automatically start Pulse after the computer is turned on</source>
+        <translation>Start Pulse automatisch nadat de computer is ingeschakeld</translation>
     </message>
 </context>
 <context>
@@ -1475,8 +1475,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>SuperTurbostake (SuperTurbostake) debug window</source>
-        <translation>SuperTurbostake (PPcoin) debug scherm</translation>
+        <source>Pulse (Pulse) debug window</source>
+        <translation>Pulse (PPcoin) debug scherm</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -1567,8 +1567,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the SuperTurbostake RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Welkom bij de SuperTurbostake RPC console. &lt;br&gt;Gebruik pijltjes naar boven en naar beneden om de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm te wissen.&lt;br&gt;Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht met commandos.</translation>
+        <source>Welcome to the Pulse RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Welkom bij de Pulse RPC console. &lt;br&gt;Gebruik pijltjes naar boven en naar beneden om de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm te wissen.&lt;br&gt;Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht met commandos.</translation>
     </message>
 </context>
 <context>
@@ -1782,7 +1782,7 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Waarschuwing: Ongeldig SuperTurbostake adres</translation>
+        <translation>Waarschuwing: Ongeldig Pulse adres</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="466"/>
@@ -1801,8 +1801,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a SuperTurbostake address</source>
-        <translation>Voer een SuperTurbostake adres in</translation>
+        <source>Enter a Pulse address</source>
+        <translation>Voer een Pulse adres in</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="177"/>
@@ -1890,8 +1890,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a SuperTurbostake address</source>
-        <translation>Voer een SuperTurbostake adres in</translation>
+        <source>Enter a Pulse address</source>
+        <translation>Voer een Pulse adres in</translation>
     </message>
 </context>
 <context>
@@ -1955,8 +1955,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this SuperTurbostake address</source>
-        <translation>Bewijs dat je dit SuperTurbostake adres bezit door het te ondertekenen </translation>
+        <source>Sign the message to prove you own this Pulse address</source>
+        <translation>Bewijs dat je dit Pulse adres bezit door het te ondertekenen </translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="155"/>
@@ -1991,8 +1991,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified SuperTurbostake address</source>
-        <translation>Verifieer het bericht om vast te stellen dat het bericht ondertekend was met het gespecificeerde SuperTurbostake adres</translation>
+        <source>Verify the message to ensure it was signed with the specified Pulse address</source>
+        <translation>Verifieer het bericht om vast te stellen dat het bericht ondertekend was met het gespecificeerde Pulse adres</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="298"/>
@@ -2017,8 +2017,8 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a SuperTurbostake address</source>
-        <translation>Voer een SuperTurbostake adres in</translation>
+        <source>Enter a Pulse address</source>
+        <translation>Voer een Pulse adres in</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -2576,18 +2576,18 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  SuperTurbostake is probably already running.</source>
-        <translation>Onmogelijk om poort %d te verbinden op deze computer. SuperTurbostake is mogelijk al eerder opgestart.</translation>
+        <source>Unable to bind to port %d on this computer.  Pulse is probably already running.</source>
+        <translation>Onmogelijk om poort %d te verbinden op deze computer. Pulse is mogelijk al eerder opgestart.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>SuperTurbostake version</source>
-        <translation>SuperTurbostake versie</translation>
+        <source>Pulse version</source>
+        <translation>Pulse versie</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or SuperTurbostaked</source>
-        <translation>Zend commando naar -server of SuperTurbostaked</translation>
+        <source>Send command to -server or Pulsed</source>
+        <translation>Zend commando naar -server of Pulsed</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="15"/>
@@ -2609,13 +2609,13 @@ Bedragen kleiner dan 0.546 keer de minimum vergoeding worden weergegeven als STO
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: SuperTurbostake.conf)</source>
-        <translation>Configuratiebestand specificeren (standaard: SuperTurbostake.conf)</translation>
+        <source>Specify configuration file (default: Pulse.conf)</source>
+        <translation>Configuratiebestand specificeren (standaard: Pulse.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: SuperTurbostaked.pid)</source>
-        <translation>Specifieer pid-bestand (standaard: SuperTurbostaked.pid)
+        <source>Specify pid file (default: Pulsed.pid)</source>
+        <translation>Specifieer pid-bestand (standaard: Pulsed.pid)
 </translation>
     </message>
     <message>
@@ -2890,23 +2890,23 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  SuperTurbostake is probably already running.</source>
-        <translation>Blokkeren van data folder %s is niet gelukt. SuperTurbostake is mogelijk al opgestart.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Pulse is probably already running.</source>
+        <translation>Blokkeren van data folder %s is niet gelukt. Pulse is mogelijk al opgestart.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>SuperTurbostake</source>
-        <translation>SuperTurbostake</translation>
+        <source>Pulse</source>
+        <translation>Pulse</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of SuperTurbostake</source>
-        <translation>Fout geconstateerd bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van SuperTurbostake</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Pulse</source>
+        <translation>Fout geconstateerd bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Pulse</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart SuperTurbostake to complete</source>
-        <translation>Portemonnee dient opnieuw bewerkt te worden: start SuperTurbostake opnieuw op om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Pulse to complete</source>
+        <translation>Portemonnee dient opnieuw bewerkt te worden: start Pulse opnieuw op om te voltooien</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="103"/>
@@ -2922,8 +2922,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong SuperTurbostake will not work properly.</source>
-        <translation>Waarschuwing: controleer of de datum en tijd op uw computer correct zijn. Indien uw klok verkeerd staat, zal SuperTurbostake niet goed werken</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Pulse will not work properly.</source>
+        <translation>Waarschuwing: controleer of de datum en tijd op uw computer correct zijn. Indien uw klok verkeerd staat, zal Pulse niet goed werken</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>

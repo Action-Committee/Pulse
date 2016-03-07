@@ -1,4 +1,4 @@
-Name SuperTurbostake
+Name Pulse
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,11 +6,11 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.4.2
-!define COMPANY "SuperTurbostake project"
-!define URL http://github.com/SuperTurbostake/SuperTurbostake/
+!define COMPANY "Pulse project"
+!define URL http://github.com/Pulse/Pulse/
 
 # MUI Symbol Definitions
-!define MUI_ICON "../share/pixmaps/SuperTurbostake.ico"
+!define MUI_ICON "../share/pixmaps/Pulse.ico"
 !define MUI_WELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER SuperTurbostake
-!define MUI_FINISHPAGE_RUN $INSTDIR\SuperTurbostake-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER Pulse
+!define MUI_FINISHPAGE_RUN $INSTDIR\Pulse-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -45,14 +45,14 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile SuperTurbostake-0.4.2-win32-setup.exe
-InstallDir $PROGRAMFILES\SuperTurbostake
+OutFile Pulse-0.4.2-win32-setup.exe
+InstallDir $PROGRAMFILES\Pulse
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.4.2.2
-VIAddVersionKey ProductName SuperTurbostake
+VIAddVersionKey ProductName Pulse
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,11 +66,11 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/SuperTurbostake-qt.exe
+    File ../release/Pulse-qt.exe
     File /oname=license.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File ../src/SuperTurbostaked.exe
+    File ../src/Pulsed.exe
     SetOutPath $INSTDIR\src
     File /r /x *.exe /x *.o ../src\*.*
     SetOutPath $INSTDIR
@@ -87,8 +87,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\SuperTurbostake.lnk" $INSTDIR\SuperTurbostake-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall SuperTurbostake.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Pulse.lnk" $INSTDIR\Pulse-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Pulse.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -121,7 +121,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\SuperTurbostake-qt.exe
+    Delete /REBOOTOK $INSTDIR\Pulse-qt.exe
     Delete /REBOOTOK $INSTDIR\license.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -131,9 +131,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall SuperTurbostake.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\SuperTurbostake.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\SuperTurbostake.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Pulse.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Pulse.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Pulse.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -141,7 +141,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "SuperTurbostake"
+    DeleteRegKey HKCR "Pulse"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0
