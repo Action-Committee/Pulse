@@ -102,7 +102,7 @@
                </sizepolicy>
               </property>
               <property name="text">
-               <string>XPL</string>
+               <string>PULSE</string>
               </property>
               <property name="buddy">
                <cstring>lnReqAmount</cstring>
